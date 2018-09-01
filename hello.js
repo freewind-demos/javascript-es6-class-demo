@@ -1,3 +1,12 @@
-import User from './user';
+class User {
+    constructor(name) {
+        this.name = name
+    }
 
-new User('Freewind').hello();
+    hello() {
+        console.log('Hello, ' + this.name)
+    }
+}
+
+const user = new User('Freewind')
+user.hello()

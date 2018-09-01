@@ -1,5 +1,5 @@
-Babel Es6 Class Import Export Demo
-==================================
+JavaScript ES6 Class Demo
+=========================
 
 ```
 npm install
